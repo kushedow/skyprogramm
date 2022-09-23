@@ -1,0 +1,102 @@
+[
+  {
+    "post_id": 1,
+    "commenter_name": "hanna",
+    "comment": "Очень здорово!"
+  },
+  {
+    "post_id": 1,
+    "commenter_name": "jlia",
+    "comment": ":)"
+  },
+  {
+    "post_id": 1,
+    "commenter_name": "ralf",
+    "comment": "Класс!"
+  },
+  {
+    "post_id": 1,
+    "commenter_name": "leo",
+    "comment": "Интересно. А где это?"
+  },
+  {
+    "post_id": 2,
+    "commenter_name": "johnny",
+    "comment": "Класс!"
+  },
+  {
+    "post_id": 2,
+    "commenter_name": "hank",
+    "comment": "Хе хе !"
+  },
+  {
+    "post_id": 2,
+    "commenter_name": "larry",
+    "comment": "Забавное фото!"
+  },
+  {
+    "post_id": 2,
+    "commenter_name": "leo",
+    "comment": "Часть вижу такие фото у друзей! Это новый тренд?"
+  },
+  {
+    "post_id": 3,
+    "commenter_name": "johnny",
+    "comment": "Выглядит неплохо )"
+  },
+  {
+    "post_id": 3,
+    "commenter_name": "hank",
+    "comment": "Каждый раз захожу в ленту и от тебя что то классное!"
+  },
+  {
+    "post_id": 3,
+    "commenter_name": "larry",
+    "comment": "!!!"
+  },
+  {
+    "post_id": 3,
+    "commenter_name": "leo",
+    "comment": "Так так, продолжай)"
+  },
+  {
+    "post_id": 4,
+    "commenter_name": "johnny",
+    "comment": "Ухты!"
+  },
+  {
+    "post_id": 4,
+    "commenter_name": "hank",
+    "comment": "Норм )"
+  },
+  {
+    "post_id": 4,
+    "commenter_name": "larry",
+    "comment": "Оу!"
+  },
+  {
+    "post_id": 4,
+    "commenter_name": "leo",
+    "comment": "Интерсно..."
+  },
+  {
+    "post_id": 5,
+    "commenter_name": "johnny",
+    "comment": "Давно тебя тут не было, с возвращением!"
+  },
+  {
+    "post_id": 5,
+    "commenter_name": "hank",
+    "comment": "Ничего себе, вот это ты молодец!"
+  },
+  {
+    "post_id": 6,
+    "commenter_name": "larry",
+    "comment": "Класс!"
+  },
+  {
+    "post_id": 7,
+    "commenter_name": "hanna",
+    "comment": "Очень необычная фоторафия! Где это?"
+  }
+]
