@@ -1,6 +1,5 @@
 from flask import Flask
 from flask_restx import Api
-
 from api.api import posts_ns
 from config import Config
 

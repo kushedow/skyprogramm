@@ -10,12 +10,6 @@ class BookmarksDAO:
         """Возращает все закладки"""
         return self.session.query(Bookmark).filter(Post.id).all()
 
-    # movies = db.session.query(Movie) \
-    #     .join(Movie.genre) \
-    #     .join(Movie.director) \
-    #     .filter(Movie.genre_id == genre_id, Movie.director_id == director_id) \
-    #     .all()
-
     def add_bookmark(self, post_id: int):
         """ Добавляет закладку"""
         bookmarks = self.get_bookmarks()  # Возращает все закладки

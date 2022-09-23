@@ -5,6 +5,7 @@
   </component>
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/static" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.10 (Skyprogramm)" jdkType="Python SDK" />
@@ -19,6 +20,10 @@
     <option name="TEMPLATE_FOLDERS">
       <list>
         <option value="$MODULE_DIR$/views_blueprint/bookmarks/templates" />
+        <option value="$MODULE_DIR$/views_blueprint/posts/templates" />
+        <option value="$MODULE_DIR$/views_blueprint/search/templates" />
+        <option value="$MODULE_DIR$/views_blueprint/users/templates" />
+        <option value="$MODULE_DIR$/views_blueprint/error/templates" />
       </list>
     </option>
   </component>
