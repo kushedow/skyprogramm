@@ -1,3 +1,4 @@
+# from dao.models.bookmark import Bookmark
 from setup_db import db
 # from dao.models.comment import CommentSchema
 
@@ -13,11 +14,8 @@ class Post(db.Model):
     views_count = db.Column(db.Integer)
     likes_count = db.Column(db.Integer)
 
-    # comment_id = db.Column(db.Integer, db.ForeignKey('comments.id'))
-    # comment = db.relationship('Comment')
 
-    bookmark_id = db.Column(db.Integer, db.ForeignKey('bookmarks.id'))
-    bookmark = db.relationship('Bookmark')
+    bookmark = db.relationship('Bookmark', back_populates="post")
 
 
 class Comment(db.Model):
@@ -33,7 +31,8 @@ class Bookmark(db.Model):
     __tablename__ = 'bookmarks'
 
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)
-    post_id = db.Column(db.Integer)
+    post_id = db.Column(db.ForeignKey(Post.id))
+    post = db.relationship(Post)
 
 # class PostSchema(Schema):
 #     poster_name = fields.Str()

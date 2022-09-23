@@ -9,7 +9,8 @@ bookmarks = Blueprint('bookmarks', __name__, template_folder="templates")
 def all_bookmark():
     """Выводит все добавленые закладки"""
     bookmarks = bookmarks_services.get_all_bookmarks()  # Возращает все добавленые закладки
-    post = post_services.get_one_pk(bookmarks)  # Возвращает один пост по его id
+    print(bookmarks)
+    # post = post_services.get_one_pk(bookmarks)  # Возвращает один пост по его id
     return render_template("bookmarks.html", all_bookmarks=bookmarks)
 
 

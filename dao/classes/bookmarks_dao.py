@@ -8,7 +8,7 @@ class BookmarksDAO:
 
     def get_bookmarks(self):
         """Возращает все закладки"""
-        return self.session.query(Bookmark).filter(Post.id).all()
+        return self.session.query(Bookmark).all()
 
     def add_bookmark(self, post_id: int):
         """ Добавляет закладку"""

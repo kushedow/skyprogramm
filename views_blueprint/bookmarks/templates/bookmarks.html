@@ -24,30 +24,30 @@
     </div>
   </header>
   <main class="container">
-    {% for all_bookmark in all_bookmarks %}
+    {% for bookmark in all_bookmarks %}
     <section class="items">
       <div class="items__item item">
         <div class="item__top">
-          <a href="/post/{{all_bookmark.id}}" class="item__head">
+          <a href="/post/{{bookmark.id}}" class="item__head">
             <div class="item__ava-wrap">
-              <img src="{{all_bookmark.poster_avatar}}" alt="" class="item__ava" width="47">
+              <img src="{{bookmark.post.poster_avatar}}" alt="" class="item__ava" width="47">
             </div>
-            <span class="item__username">{{all_bookmark.poster_name}}</span>
+            <span class="item__username">{{bookmark.post.poster_name}}</span>
           </a>
-          <a href="/bookmarks/delete/{{all_bookmark.id}}" class="item__delete">Удалить</a>
+          <a href="/bookmarks/delete/{{bookmark.post.id}}" class="item__delete">Удалить</a>
         </div>
-        <a href="/post/{{all_bookmark.id}}" class="item__post-link">
-          <img src="{{all_bookmark.pic}}" alt="" width="348" class="item__post-img">
+        <a href="/post/{{bookmark.post.id}}" class="item__post-link">
+          <img src="{{bookmark.post.pic}}" alt="" width="348" class="item__post-img">
         </a>
-        <p class="item__descr">{{all_bookmark.content[:50]}}<a href="/post/{{all_bookmark.id}}" class="item__btn-more">Еще</a></p>
+        <p class="item__descr">{{bookmark.post.content[:50]}}<a href="/post/{{bookmark.post.id}}" class="item__btn-more">Еще</a></p>
         <div class="item__post-info">
           <div class="item__counter">
             <img src="../../../static/css/styles.min.css" alt="" class="item__counter-icon" width="26">
-            <span class="item__counter-text">{{all_bookmark.views_count}}</span>
+            <span class="item__counter-text">{{bookmark.post.views_count}}</span>
           </div>
         </div>
         <div class="item__post-bottom">
-          <a href="/post/{{all_bookmark.id}}" class="item__btn-more">Подробнее</a>
+          <a href="/post/{{bookmark.post.id}}" class="item__btn-more">Подробнее</a>
         </div>
       </div>
     </section>

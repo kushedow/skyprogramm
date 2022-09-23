@@ -3,7 +3,8 @@ from typing import Union
 
 from config import Config
 from app import db
-from dao.models.post import Post, Comment
+from dao.models.post import Post, Comment, Bookmark
+# from dao.models.bookmark import
 
 
 def read_json(DATA_PATH: str, encoding: str = "utf-8") -> Union[list, dict]:

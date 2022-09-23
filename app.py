@@ -4,6 +4,7 @@ from api.api import posts_ns
 from config import Config
 
 from dao.models.post import *
+
 from views_blueprint.bookmarks.bookmarks import bookmarks
 from views_blueprint.error.error import page_error
 from views_blueprint.posts.posts import post
